@@ -1,0 +1,231 @@
+@font-face{
+    font-family: "Josefin Slab";
+    font-family: "Elsie";
+    font-family: "Arizonia";
+    src:url('https://fonts.googleapis.com/css2?family=Arizonia&family=Elsie:wght@400;900&family=Josefin+Slab:wght@400;600;700&display=swap');
+}
+/* Phone Screen*/
+@media screen and (min-width: 200px) {
+    html {
+      font-size: calc(1rem + 6 * ((100vw - 200px) / 680));
+     /* height:calc(1px + 6 * ((100vw - 320px) / 680));*/
+    }
+  }
+/*laptop screens*/
+@media screen and (min-width: 1200px) {
+    html {
+      font-size: calc(1rem + 6 * ((100vw - 1200px) / 680));
+      /*height:calc(1px + 6 * ((100vw - 1200px) / 680));*/
+    }
+  }
+/*tablet screens*/
+  @media screen and (min-width: 768px) {
+    html {
+      font-size: calc(1rem + 6 * ((100vw - 768px) / 680));
+      /*height:calc(1px + 6 * ((100vw - 768px) / 680));*/
+    }
+  }
+header {
+    background: #4C5054;
+    color: #97BAA2;
+    font-family: "Elsie";
+    text-align: center;
+    display: block;
+    position:relative;
+    margin:0px;
+    max-height:auto;
+    min-height: 250px;
+    max-width:auto;
+    min-width:400px;
+}
+body {
+    background: #AFBCC0;
+    color:#4C5054;
+    text-align: center;
+    display:block;
+    position:relative;    
+}
+/*changes the color of the navigation bar*/
+nav{
+    background-image: url(scalloped.jpg);
+    background-clip: padding-box;
+    background-position: 100% 100%;
+    font-size: 2rem;
+    letter-spacing: 0.05rem;
+    max-height:auto;
+    min-height:200px;
+    max-width:auto;
+    min-width:400px;
+    display:block;
+    position:relative;
+  }
+/*styles the links used in the pages*/
+a {
+    color:#92D8D8;
+    height:80px;
+    width:16%;
+    font-family:"Josefin Slab";
+    font-size: 1.5rem;
+    text-decoration: none; 
+   /* text-align: center;*/
+}
+/*link hover changes color*/
+a:hover{
+    color:#97BAA2;
+}
+.atakeover{
+    background-color: #245257;
+    background-clip: padding-box;
+    padding:10px;
+}
+/*all headers use this section*/
+h1{
+    color: #97BAA2;
+    font: "Elsie";
+    font-size: 3.0rem;
+}
+h2 {
+    color:#97BAA2;
+    font-size:2.5rem;
+    font-family:"Elsie";
+    font-weight: 400;
+}
+h3{
+    font-size: 1.5rem;
+    color:#4C5054;
+    letter-spacing: 0.03rem;
+    word-spacing:0.05rem;
+    position:left;
+    display:block;
+    font-family: "Josefin Slab";
+}
+/*all long texts use this*/
+p{
+    color:#4C5054;
+    letter-spacing: 0.03rem;
+    word-spacing:0.05rem;
+    position:relative;
+    display:block;
+    font-size: 1.5rem;
+    font-family:"Josefin Slab";
+    font-weight: 600;
+}
+/*the second color on the resume sheet for alternating resume info*/
+.second{
+    color:#97BAA2;  
+    font-weight: 700;
+    font-family:"Josefin Slab";
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+/*home page photo banner for welcome!*/
+.flowers{
+    background-image: url( "Photography Portfolio /greenplant.JPG");
+    clip-path: circle(180px at center);
+    background-position: 30% 40%;
+    max-height:500px;
+    min-height: 400px;
+    width: auto;
+    font-family: "Arizonia";
+    font-weight:900;
+    line-height: 400px;
+    font-size:5rem;
+    letter-spacing: 0.05rem;
+    color: #AFBCC0;
+    display: block;
+    position:relative;
+    text-shadow:2px 2px black;
+}
+/*click takes you to the projects page*/
+.flowers:hover{
+    color:#97BAA2;
+    text-shadow: 2px 2px white;  
+}
+#bannerheight{
+    background-color: #4C5054;
+    max-height:auto;
+    min-height:300px;
+    display:block;
+    position:relative;
+}
+/*gallery on photography project page to tile them*/
+ul {
+    display: flex;
+    flex-flow:row wrap;
+    flex-basis:auto;
+    justify-content: center;
+  }
+  img {
+    max-height:300px;
+    min-height: auto;
+    max-width:400px;
+    min-width: auto;
+    display:block;
+    position: relative;
+    align-items: center;
+    gap:0;
+  }
+/*used on the excerpts for film only*/
+.projectlayout{
+      background-color:  #97BAA2;
+      border-radius: 2em;   
+  }
+/*layout for creative writing and filmwork pages*/
+.textright{
+    color: #102222;
+    display:block;
+    position:relative;
+    max-height: auto;
+    min-height:250px;
+    max-width:auto;
+    min-width:400px;
+    text-align: right;
+    border-style:solid;
+    border-color: #102222;
+    border-left: 2px;
+    border-top:none; 
+    padding:5px 5px 20px 5px; 
+    margin: auto;
+} 
+.textleft{
+    color: #102222;
+    display:block;
+    position:relative;
+    max-height:auto;
+    min-height:250px;
+    max-width:auto;
+    min-width:400px;
+    text-align: left;
+    border-style: solid;
+    border-right:2px;
+    border-top:none;
+    border-color: #102222;
+    padding:5px 5px 20px 5px;
+    margin: auto;
+}
+/*used on the exerpts from cretive writing only*/
+.excerpts{
+    border-radius: 2em;
+    padding:3px;
+    background-color: rgba(151, 186, 162,0.5);
+    display:block;
+    text-align: left;
+    text-indent: 2.5rem;
+}
+/*link specification to differ background color from a*/
+.link{
+    background-color: #245257;
+    letter-spacing: 0.03rem;
+    display:block;
+    position:relative;
+    margin: 0% auto 0% auto;
+    font-size: 1.5rem;
+    max-height:auto;
+    min-height:50px;
+    max-width:auto;
+    min-width: 300px;
+    line-height: 50px;
+}
+.darkh2 {
+    color: #102222;
+}
