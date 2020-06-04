@@ -236,8 +236,14 @@ p{
     width: 350px;
     margin:auto;
     text-align:center;
-    line-height: 400px;
-    color: #102222;
+    line-height: 100px;
+    opacity:60%;
+    color:white;
+    font-family:"Elsie";
+}
+.camerabutton:hover{
+    opacity: 100%;
+    color:#AFBCC0;
 }
 .creativebutton{
     background-image: url(creativebutton.jpg);
@@ -246,8 +252,14 @@ p{
     width: 350px;
     margin:auto;
     text-align:center;
-    line-height: 400px;
-    color: #102222;
+    line-height: 100px;
+    color:white;
+    opacity:60%;
+    font-family:"Elsie";
+}
+.creativebutton:hover{
+    opacity: 100%;
+    color:#AFBCC0;
 }
 .screenbutton{
     background-image:url(screenwriting.jpg);
@@ -256,6 +268,16 @@ p{
     width: 350px;
     margin:auto;
     text-align:center;
-    line-height: 400px;
-    color: #102222;
+    line-height: 100px;
+    color:white;
+    opacity: 60%;
+    font-family:"Elsie";
 }
+.screenbutton:hover{
+    opacity: 100%;
+    color:#AFBCC0;
+}
+.projecttext {
+    
+    color: white;
+  }
