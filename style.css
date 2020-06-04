@@ -33,7 +33,7 @@ header {
     display: block;
     position:relative;
     max-height:auto;
-    min-height: 200px;
+    min-height: 100px;
     max-width:auto;
     min-width:400px;
     margin-top: 2%;
@@ -43,14 +43,14 @@ body {
     color:#4C5054;
     text-align: center;
     display:block;
-    position:relative;    
+    position:relative;   
+    margin:auto; 
 }
 /*changes the color of the navigation bar*/
 nav{
-   /* background-image: url(scalloped.jpg);
+   background-image: url(scalloped.jpg);
     background-clip: padding-box;
-    background-position: 100% 100%;*/
-    background-color:#4C5054;
+    background-position: 100% 100%;
     letter-spacing: 0.05rem;
     max-height:auto;
     min-height:130px;
@@ -59,6 +59,14 @@ nav{
     display:block;
     position:relative;   
   }
+.pagetop{
+    background-color:#4C5054;
+    max-height:auto;
+    min-height:120px;
+    width:auto;
+    display:block;
+    position:relative;
+}
 /*styles the links used in the pages*/
 a {
     color:#92D8D8;
@@ -89,7 +97,7 @@ h1{
     color: #97BAA2;
     font: "Elsie";
     font-size: 2rem;
-    margin-top:0px;
+   
 }
 h2 {
     color:#97BAA2;
