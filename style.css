@@ -172,7 +172,7 @@ p{
     display:block;
     position: relative;
     align-items: center;
-    gap:0;
+    margin: 1%;
   }
 /*used on the excerpts for film only*/
 .projectlayout{
