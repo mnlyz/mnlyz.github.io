@@ -181,7 +181,7 @@ p{
       max-width:auto;
       min-width:400px; 
       margin:0% 20%;
-      padding:8px;
+      padding:20px 2px;
   }
 /*layout for creative writing and filmwork pages*/
 .textright{
@@ -304,6 +304,6 @@ p{
     color:#AFBCC0;
 }
 .projecttext {
-    color: white;
+    margin: 2% 20%;
   }
-
+  
