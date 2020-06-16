@@ -154,14 +154,6 @@ p{
     color:#97BAA2;
     text-shadow: 2px 2px white;  
 }
-/*#bannerheight{
-    background-color: #4C5054;
-    max-height:auto;
-    min-height:300px;
-    display:block;
-    position:relative;
-}
-*/
 /*gallery on photography project page to tile them*/
 .flex {
     display: flex;
@@ -188,7 +180,7 @@ p{
       border-radius: 2em; 
       max-width:auto;
       min-width:400px; 
-      margin:auto;
+      margin:0% 20%;
       padding:8px;
   }
 /*layout for creative writing and filmwork pages*/
@@ -199,14 +191,14 @@ p{
     max-height: auto;
     min-height:250px;
     max-width:auto;
-    min-width:400px;
+    min-width:200px;
     text-align: right;
     border-style:solid;
     border-color: #102222;
     border-left: 2px;
     border-top:none; 
     padding:5px 5px 20px 5px; 
-    margin: auto;
+    margin: 0% 20% 0% 20%;
 } 
 .textleft{
     color: #102222;
@@ -215,14 +207,14 @@ p{
     max-height:auto;
     min-height:250px;
     max-width:auto;
-    min-width:400px;
+    min-width:200px;
     text-align: left;
     border-style: solid;
     border-right:2px;
     border-top:none;
     border-color: #102222;
     padding:5px 5px 20px 5px;
-    margin: auto;
+    margin: 0% 20% 0% 20%;
 }
 /*used on the exerpts from cretive writing only*/
 .excerpts{
